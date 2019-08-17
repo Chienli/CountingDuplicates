@@ -12,9 +12,7 @@ namespace CountingDuplicates
                 return 0;
             }
 
-            var strBuffer = str;
-
-            return Count(strBuffer);
+            return Count(str);
         }
 
         private static int Count(string strBuffer)
