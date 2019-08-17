@@ -30,5 +30,13 @@ namespace CountingDuplicates
 
             Assert.AreEqual(2, actual);
         }
+
+        [TestMethod]
+        public void String_Indivisibilities_return_2()
+        {
+            var actual = _kata.DuplicateCount("Indivisibilities");
+
+            Assert.AreEqual(2, actual);
+        }
     }
 }
